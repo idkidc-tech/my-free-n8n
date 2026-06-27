@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: free-n8n-instance
+    runtime: docker
+    repo: https://github.com/n8nio/n8n
+    plan: free
+    region: oregon
+    envVars:
+      - key: N8N_PORT
+        value: 10000
+      - key: N8N_METRICS
+        value: "false"
