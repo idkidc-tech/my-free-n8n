@@ -2,7 +2,6 @@ services:
   - type: web
     name: free-n8n-instance
     runtime: docker
-    repo: https://github.com/n8nio/n8n
     plan: free
     region: oregon
     envVars:
